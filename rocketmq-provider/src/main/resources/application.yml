@@ -1,0 +1,11 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /rocketmq-provider
+spring:
+  application:
+    name: rocketmq-provider
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: demo-producer-group
